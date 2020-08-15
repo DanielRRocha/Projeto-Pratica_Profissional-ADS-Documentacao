@@ -1,10 +1,10 @@
 # Projeto-Pratica_Profissional-ADS-Documentacao
 
-###Sobre
+### Sobre
 
 Projeto de prática profissional ADS 5 Semestre Mackenzie
 
-#####Integrantes
+##### Integrantes
 * Carlos Rodrigues de Oliveira
 * Daniel do Rosário Rocha
 * Jose luiz Gonçalves
