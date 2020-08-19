@@ -13,7 +13,7 @@ Projeto de prática profissional ADS 5 Semestre Mackenzie
 ---
 ### Git
 
-#### FLuxo
+#### Fluxo
 - Acesar via terminal/CmDer a pasta do projeto.
 
 - Acessar a branch **develop**
@@ -51,11 +51,11 @@ $ git status
 ```
 
 - Adicionar arquivos ao pacote para commitar e subir pararepositório remoto
-- - Adiciona somente um arquivo
+  - Adiciona somente um arquivo
 ```
 $ git add <nome do arquivo>
 ```
-- - Adiciona todos os arquivos modificados
+  - Adiciona todos os arquivos modificados
 ```
 $ git 
 ```
@@ -65,9 +65,26 @@ $ git
 $ git commit -m "desricao resumida da alteracao"
 ```
 
+#### CUIDADO COM OS COMANDOS A SEGUIR
+
 - excluir branch local
 ```
 $ git remote -d <nome da branch>
+```
+
+- Remover mudanças no repositorio local
+```
+$ git checkout .
+```
+
+- Remover mudanças depois do add
+```
+$ git reset <nome do arquivo>
+```
+
+- Remover commit local antes de subir para repositório remoto
+```
+$ git reset HEAD~1
 ```
 
 
